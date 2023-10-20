@@ -20,11 +20,12 @@ import com.example.mememe.R
 
 class MainActivity : AppCompatActivity() {
 
-    var currentImageUrl: String?=null
+    private var currentImageUrl: String?=null
     private  lateinit var ivMeme :ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_main)
 
         loadMeme()
