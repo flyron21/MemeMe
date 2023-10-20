@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.mememe'
+    namespace 'com.flyron21.mememe'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.mememe"
+        applicationId "com.flyron21.mememe"
         minSdk 24
         targetSdk 33
         versionCode 1
