@@ -1,4 +1,4 @@
-package com.example.mememe
+package com.flyron21.mememe
 
 import org.junit.Test
 
